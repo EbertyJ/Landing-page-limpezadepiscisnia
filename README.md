@@ -1,2 +1,1 @@
-# Pagina criada para pratica
-# Pagina apenas para praticar HTML,CSS 
+## Pagina criada para praticar meu HTML,CSS.
