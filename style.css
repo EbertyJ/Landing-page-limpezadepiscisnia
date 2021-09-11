@@ -1,0 +1,146 @@
+nav { /*Estilização do menu nav bar*/
+    word-spacing: -1px;
+    float: right;
+    margin-right: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+a{ /*Retirando o sublinhado do link e estilizamdo*/
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    
+    
+}
+
+
+.text{ /*Posicionando a logo Pooltron*/
+    margin-top: 30px;
+    margin-left: 9rem;
+}
+
+h2{ /*Estilizando o primeiro nome da logo, Pooltron*/
+    color: white;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+h5{ /*Estilizando o segundo nome da logo, Limpeza de piscina */
+    color: white;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: 2px;
+
+}
+
+body{ /*Colocando uma imagem de fundo e adicionando um sobreamento opaco*/
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.12)), url(img/piscina.jpg);
+    height: 44.7rem;
+    background-repeat: no-repeat;
+}
+
+p{ /*Solicite uma cotação, dentro da class form*/
+    margin-left: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+#inpName{ /*Primerio input do form*/
+    border-style:hidden;
+    box-shadow: gray 2px 2px 2px 2px;
+}
+
+
+#inpEmail{ /*Segundo input do form*/
+    border-style: hidden;
+    box-shadow: gray 2px 2px 2px 2px;
+}
+
+#inpPhone{ /*Terceiro e ultimo input do form*/
+    border-style: hidden;
+    box-shadow: gray 2px 2px 2px 2px;
+}
+
+
+
+.form{ /*Class formulario*/
+    float: right;
+    margin-top: 6.5rem;
+    margin-right: 16rem;
+    background-color: white;
+    border-radius: 3px;
+}
+
+h3{ /*Em oque voce esta interessado*/
+    margin-left: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+select{ /*Seleceionar dentro do form*/
+    margin-left: 1rem;
+    width: 20rem;
+    height: 30px;
+}
+
+#inpName{ /*Id do intput, estilizando somente a caixa de input*/
+    margin: 10px;
+    height: 30px;
+    width: 20rem;
+}
+#inpEmail{ /*Id do intput, estilizando somente a caixa de input*/
+    margin: 10px;
+    height: 30px;
+    width: 20rem;
+}
+#inpPhone{ /*Id do intput, estilizando somente a caixa de input*/
+    margin: 10px;
+    height: 30px;
+    width: 20rem;
+}
+
+#inpBotao{ /*Id do intput, estilizando somente a caixa de input*/
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+    width: 17rem;       /* Largura */
+    height: 50px;       /* Altura */
+    background-color: orangered;
+    color:aliceblue;
+
+}
+
+.btn{ /*Class do botao, solicitar uma cotação*/
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textoBody{ /*Class reserve uma limpeza na sua cidade hoje*/
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+
+.textoBody p{ /*Estilizando a tag (P) dentro da class textoBody*/
+    color: whitesmoke;
+    font-size: 4em;
+    letter-spacing: -4px;
+}
+
+.ultimoBtn{ /*posicionando a class no form*/
+    margin-left:8rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+#btn2{ /*Estilizando o botão da class ultimoBtn*/
+    width: 250px;
+    height: 60px;
+    background-color: #00BFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size:large;
+}
+
